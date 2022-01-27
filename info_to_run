@@ -1,0 +1,31 @@
+
+--2--------------------
+1.  docker start 9ae6db05483f 
+
+localhost:8081
+2.  cd /home/vk/Golang_workspace/src/arc2/ProcessingAPI/
+    
+3.  cd /home/vk/Golang_workspace/src/arc2/FilesAPI/
+
+--1-- Oauth2 ----
+localhost:8080       // enter point
+cd /home/vk/Golang_workspace/src/arc2/oauth2/
+
+go run main.go
+
+
+---- SAML ----
+cd /home/vk/Golang_workspace/src/arc2/saml/sp/
+
+go run main.go
+
+mdpath=saml-test-$USER-$HOST.xml
+curl localhost:8000/saml/metadata > $mdpath
+
+Navigate to https://samltest.id/upload.php and upload the file you fetched.
+
+
+
+
+--------------------------------
+
