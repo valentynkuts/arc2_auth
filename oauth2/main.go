@@ -1,8 +1,3 @@
-// https://localhost:8080/oauth2/receive
-// Client ID - 844767980406-7k9v67s62c5riv0l1kugqvef7ar6869k.apps.googleusercontent.com
-// Client secret - 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
-
-
 package main
 
 import (
